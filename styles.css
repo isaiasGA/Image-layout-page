@@ -408,6 +408,41 @@ img {
          font-weight: bold;
       }
 
+      /*Footer*/
+
+      .bottom-footer-content {
+         display: flex;
+         justify-content: center;
+      }
+
+      .main-title-footer {
+         margin-right: 1em;
+         font-size: 24rem;
+      }
+
+      .footer-menu {
+         font-size: 24rem;
+      }
+
+      .footer-menu-item {
+         font-size: 11rem;
+      }
+
+      .footer-gallery {
+         width: 35%;
+      }
+
+      .footer-img-container {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 0;
+      }
+
+      .footer-img {
+         width: 24%;
+         margin: 0 0.5em 0 0;
+      }
+
     }
 
 
