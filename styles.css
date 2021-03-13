@@ -52,6 +52,8 @@ img {
 
   p {
      font-family: "Open Sans", sans-serif;
+     color: gray;
+     font-weight: 400;
   }
 
  
@@ -123,7 +125,7 @@ img {
 
    nav a {
       color: #707070;
-      font-size: 16rem;
+      font-size: 20rem;
       font-weight: 400;
       cursor: pointer;
       border-bottom: 1px solid;
@@ -148,6 +150,111 @@ img {
    h1 {
       font-size: 34rem;
       margin-bottom: .5em;
+   }
+
+   /*Main Content*/
+
+   main {
+      text-align: center;
+      background-color: #F3F2F0;
+   }
+
+   .side-content {
+      margin-bottom: 3em;
+   }
+
+   .plane-logo {
+      font-size: 66rem;
+      margin: 0.5em 0;
+      color: gray;
+   }
+
+   .side-button {
+      background-color: white;
+      margin-top: 2em;
+      padding: 0.5em 10em;
+      color: gray;
+   }
+
+   /*Centered Main Content*/
+
+   .article-title {
+      font-size: 22rem;
+      margin-bottom: 1em;
+   }
+
+   .article-top-imgs {
+      display: none;
+   }
+
+   .church-img {
+      margin-bottom: 1em;
+   } 
+
+   .article-description {
+      font-size: 22rem;
+      padding: 1em 0;
+   }
+
+
+   /*Footer*/
+
+   .top-footer {
+      background-color: #8BACA3;
+   }
+
+   .bottom-footer {
+      background-color: #2D473E;
+   }
+
+   .footer-title-container {
+      padding: 2em 0;
+   }
+
+   .footer-title {
+      letter-spacing: 11px;
+      margin-bottom: 1.5em;
+   }
+
+   .footer-button {
+      border: 1px solid black;
+      padding: .5em 2em;
+   }
+
+   /*Footer section 2*/
+
+   .main-title-footer {
+      padding-top: 1em;
+   }
+
+   .footer-menus {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .footer-menu {
+      font-size: 20rem;
+      font-weight: 400;
+      padding: 1em;
+   }
+
+   .footer-menu-item {
+      padding-bottom: .5em;
+   }
+
+   .footer-img-container {
+      margin-bottom: 2em;
+   }
+
+   .footer-img {
+      width: 47%;
+      margin: 1em 8em;
+   }
+
+   .copyright {
+      padding: 2em 0;
+      border-top: 1px solid;
+      margin: 0 4em;
    }
 
 
