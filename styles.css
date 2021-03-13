@@ -263,7 +263,7 @@ img {
                            Media Queries
     =========================================================================*/
 
-    @media(min-width: 900px) {
+    @media(min-width: 1006px) {
 
       /*Typography*/
 
@@ -317,7 +317,96 @@ img {
          border-radius: 0;
        }
    
+       .header-title {
+          position: relative;
+          bottom: 16em;
+       }
 
+       /*Main Content*/
+
+       main {
+         height: 49em;
+       }
+
+       .top-main-img {
+         width: 53%;
+         position: relative;
+         bottom: 12em;
+       }
+
+       .side-content {
+         position: relative;
+         bottom: 23em;
+         margin-left: 26em;
+       }
+
+       .travel-text {
+         padding: 0 4em;
+       }
+
+       .article-top-imgs {
+         display: contents;
+      }
+
+      .article-title {
+         font-size: 15rem;
+         position: relative;
+         right: 4em;
+         bottom: 23em;
+      }
+
+      .article-top-imgs {
+         display: flex;
+         position: relative;
+         bottom: 21em;
+         margin-left: 14em;
+      }
+
+      .church-img, .beach-img {
+         width: 38%;
+         object-fit: cover;
+      }
+
+      .church-img {
+         margin-bottom: 0%;
+      }
+
+      .beach-img {
+         height: 12em;
+         margin-left: 1em;
+      }
+
+      /*Bottom Articles*/
+
+      .articles {
+         display: flex;
+         justify-content: center;
+         position: relative;
+         bottom: 18em;
+      }
+
+      .article-one {
+         margin-left: 5em;
+      }
+
+      .mini-article-container {
+         width: 18.5%;
+         margin-right: 1em;
+      }
+
+      .article-three {
+         margin-right: 0;
+      }
+
+      .mini-img2, .mini-img3 {
+         height: 9.5em;
+         width: 100%;
+      }
+
+      .article-description {
+         font-size: 13rem;
+         font-weight: bold;
+      }
 
     }
 
