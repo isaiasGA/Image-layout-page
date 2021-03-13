@@ -248,7 +248,8 @@ img {
 
    .footer-img {
       width: 47%;
-      margin: 1em 8em;
+      margin: 0 auto;
+      padding-bottom: 1em;
    }
 
    .copyright {
@@ -289,7 +290,7 @@ img {
       }
 
       nav ul {
-         display: flex;
+         flex-direction: row;
          justify-content: flex-end;
          margin-right: 6em;
          padding-top: 2em;
@@ -301,6 +302,19 @@ img {
 
       nav a {
          padding: .25em 0;
+         font-size: 13rem;
+       }
+
+       /*Header Content*/
+
+       .header-img {
+         width: 89%;
+         height: 45vh;
+         position: relative;
+         bottom: 19em;
+         margin-left: 3em;
+         object-fit: cover;
+         border-radius: 0;
        }
    
 
